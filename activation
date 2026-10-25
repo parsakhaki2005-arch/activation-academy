@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1530">
+  <title>آموزشگاه زبان اکتیویشن | Activation</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: radial-gradient(circle at top, #263b70, #0b1530 70%);
+      font-family: Tahoma, Arial, sans-serif;
+      color: #fff;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+    }
+    .card {
+      width: 100%;
+      max-width: 440px;
+      padding: 36px 24px;
+      border: 1px solid rgba(255,255,255,.18);
+      border-radius: 28px;
+      background: rgba(255,255,255,.07);
+      box-shadow: 0 24px 60px rgba(0,0,0,.3);
+      text-align: center;
+    }
+    .logo {
+      width: 84px;
+      height: 84px;
+      border: 2px solid #f3c66b;
+      border-radius: 24px;
+      margin: 0 auto 22px;
+      display: grid;
+      place-items: center;
+      color: #f3c66b;
+      font-size: 44px;
+      font-weight: bold;
+      direction: ltr;
+    }
+    h1 { font-size: 25px; margin: 0 0 8px; }
+    .en {
+      color: #f3c66b;
+      font-size: 13px;
+      letter-spacing: 2px;
+      direction: ltr;
+    }
+    .desc {
+      line-height: 2;
+      color: #d4def2;
+      margin: 24px 0;
+      font-size: 14px;
+    }
+    .btn {
+      display: block;
+      padding: 16px;
+      margin: 12px 0;
+      border-radius: 14px;
+      text-decoration: none;
+      color: white;
+      background: rgba(255,255,255,.11);
+      border: 1px solid rgba(255,255,255,.15);
+      font-weight: bold;
+      transition: .2s;
+    }
+    .btn:hover {
+      background: rgba(255,255,255,.22);
+      transform: translateY(-2px);
+    }
+    .primary { background: #e9b957; color: #14203b; }
+    .primary:hover { background: #ffd77d; }
+    .address {
+      margin-top: 26px;
+      font-size: 13px;
+      color: #cbd5e7;
+      line-height: 2;
+    }
+    footer { margin-top: 24px; color: #8e9db9; font-size: 11px; }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <div class="logo">A</div>
+    <h1>آموزشگاه زبان اکتیویشن</h1>
+    <div class="en">ACTIVATION LANGUAGE ACADEMY</div>
+
+    <p class="desc">
+      به دنیای یادگیری زبان خوش آمدید!<br>
+      برای ارتباط با آموزشگاه یکی از گزینه‌های زیر را انتخاب کنید.
+    </p>
+
+    <a class="btn primary" href="tel:09220124138">
+      📞 تماس با آموزشگاه
+    </a>
+
+    <a class="btn"
+       href="https://www.instagram.com/activation_language/"
+       target="_blank" rel="noopener noreferrer">
+      📸 صفحه اینستاگرام
+    </a>
+
+    <a class="btn"
+       href="https://www.google.com/maps/search/?api=1&amp;query=%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86%20%D8%B4%DB%8C%D8%AE%20%D8%B5%D8%AF%D9%88%D9%82%20%D8%B4%D9%85%D8%A7%D9%84%DB%8C%20%DA%A9%D9%88%DA%86%D9%87%20%D8%A7%D8%A8%D8%B7%D8%AD%DB%8C"
+       target="_blank" rel="noopener noreferrer">
+      📍 مسیریابی آموزشگاه
+    </a>
+
+    <div class="address">
+      اصفهان، شیخ صدوق شمالی، کوچه ابطحی<br>
+      تلفن: 09220124138
+    </div>
+
+    <footer>© Activation Language Academy</footer>
+  </main>
+</body>
+</html>
